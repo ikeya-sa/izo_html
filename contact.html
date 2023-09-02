@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Izo | Journeyman</title>
+        <meta name="description" content="関東を拠点に活動しているソロギタリスト「Izo」のOffiial Web Siteです。ライブ情報や配信の告知など行っていきます。">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <script src="./js/toggle-menu.js"></script>
+        <!-- OGP -->
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+        <meta property="og:url" content="#" />
+        <meta property="og:type" content="#" />
+        <meta property="og:title" content="Izo | Journeyman" />
+        <meta property="og:description" content="関東を拠点に活動しているソロギタリスト「Izo」のOffiial Web Siteです。ライブ情報や配信の告知など行っていきます。" />
+        <meta property="og:site_name" content="Izo | Journeyman" />
+        <meta property="og:image" content="#" />
+    </head>
+    <body>
+        <!-- 共通ヘッダー -->
+        <header class="header">
+            <div class="header-inner">
+                <a class="header-logo" href="./index.html">
+                    <img src="./images/common/logo-header.png" alt="Izo Journeyman">
+                </a>
+                <nav class="site-menu">
+                    <ul class="site-menu-link">
+                        <li><a href="./index.html">Top</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./discography.html">Discography</a></li>
+                        <li><a href="https://ameblo.jp/izo/" target="_blank">Blog</a></li>
+                        <li><a href="./lesson.html">Lesson</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>    
+                </nav>
+                <div class="header-sns">
+                    <ul class="sns-link">
+                        <li><a href="https://twitter.com/Izo_Journeyman" target="_blank"><img src="images/common/logo_tw.png" width="20" height="20" alt="twitter"></a></li>
+                        <li><a href="https://www.facebook.com/IzoSoloArtist" target="_blank"><img src="images/common/logo_fb.png" width="20" height="20" alt="Facebook"></a></li>
+                        <li><a href="https://instagram.com/izo_journeyman?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="images/common/logo_insta.png" width="20" height="20" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+                <button class="toggle-menu-button"></button>
+            </div>
+        </header>
+        <main class="main">
+            <!-- タイトル -->
+            <div class="main-title-inner">
+                <div class="main-title-text">
+                    <h1>Contact</h1>
+                </div>    
+            </div>
+            <!-- メイン　Contactエリア -->
+            <div class="contact">
+                <div class="contact-inner">
+                    <div class="contact-title-text">
+                        <h2>サポート演奏、レッスン、セミナー、製品レビューなど<br>
+                        ギターに関することはお気軽にお問い合わせください。</h2>
+                    </div>
+                    <hr>
+                    <div class="contact-body">
+                        <p>
+                        お問い合わせ内容を下記フォームにご入力いただき、「確認」ボタンを押してください。</br>
+                        <span>※</span>は必須項目です。
+                        </p>
+                    </div>
+                    <div class="form">
+                        <form action="./confirm.html" method="post">
+                            <dl class="form-area">
+                                <dt><label class="required">お名前（ハンドルネーム可）</label></dt>
+                                <dd><input class="input-text" type="text" name="name" required></dd>
+                                <dt><label class="required">メールアドレス</label></dt>
+                                <dd><input class="input-text" type="email" name="email" required></dd>
+                                <dt><label>お電話番号（ハイフン不要）</label></dt>
+                                <dd><input class="input-text" type="tel" name="tel"></dd>
+                                <dt><label>お問い合わせ種別</label></dt>
+                                    <dd>
+                                        <select class="select-box" name="genre">
+                                            <option value="サポート演奏のご依頼・ご相談">サポート演奏のご依頼・ご相談</option>
+                                            <option value="レッスンのご依頼・ご相談">レッスンのご依頼・ご相談</option>
+                                            <option value="セミナーのご依頼・ご相談">セミナーのご依頼・ご相談</option>
+                                            <option value="製品レビューのご依頼・ご相談">製品レビューのご依頼・ご相談</option>
+                                            <option value="Izoの活動に関するご質問">Izoの活動に関するご質問</option>
+                                            <option value="その他">その他</option>
+                                        </select>
+                                    </dd>
+                                <dt><label class="required">お問い合わせ内容</label></dt>
+                                    <dd><textarea class="message" name="message" required></textarea></dd>
+                            </dl>
+                        </form>
+                        <div class="button-area">
+                            <div class="contact-button">
+                                <button class="form-button" type="submit">確認</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- 共通フッター -->
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-sns">
+                    <ul class="sns-link">
+                        <li><a href="https://twitter.com/Izo_Journeyman" target="_blank"><img src="images/common/logo_tw.png" width="20" height="20" alt="twitter"></a></li>
+                        <li><a href="https://www.facebook.com/IzoSoloArtist" target="_blank"><img src="images/common/logo_fb.png" width="20" height="20" alt="Facebook"></a></li>
+                        <li><a href="https://instagram.com/izo_journeyman?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="images/common/logo_insta.png" width="20" height="20" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+                <p class="copyright"><small>&copy; 2023 Izo All Rights Reserved.</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
