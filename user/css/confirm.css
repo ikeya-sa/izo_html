@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* Confirm要素 */
+/* Confirm全体 */
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -27,16 +27,18 @@ hr {
     margin-bottom: 20px;
 }
 
+/* フォームエリア全体 */
 .form-area {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* フォームエリア要素 */
 .form-area dt {
     width: 300px;
     padding: 15px 0;
     font-weight: bold;
-    line-hight: 24px;
+    line-height: 24px;
 }
 
 .form-area dt .required::after {
@@ -69,16 +71,19 @@ hr {
     line-height: 1.5;
 }
 
+/* ボタンエリア全体 */
 .button-area {
     margin: 20px 0 0 300px;
     display: flex;
 }
 
+/* ボタンエリア要素 */
 .form-button {
     margin: 0 20px;
 }
 
 @media (max-width: 800px) {
+    /* フォームエリア要素 */
     .form-area dt,
     .form-area dd {
         width: 100%;
@@ -87,12 +92,14 @@ hr {
        padding-bottom: 0;
     }
 
+    /* ボタンエリア全体 */
    .button-area {
         margin: 20px 0 0;
         flex-direction: column;
         align-items: center;
     }
 
+    /* ボタンエリア要素 */
     .form-button {
         margin: 10px 20px;
     }

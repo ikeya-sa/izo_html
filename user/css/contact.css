@@ -63,7 +63,7 @@ hr {
     width: 300px;
     padding: 15px 0;
     font-weight: bold;
-    line-hight: 24px;
+    line-height: 24px;
 }
 
 .form-area dt .required::after {
